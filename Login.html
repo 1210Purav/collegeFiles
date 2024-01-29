@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Admin / User sign-in</title>
+
+    <style>
+        dt{
+            padding-top: 12px;
+            text-transform: uppercase;
+            font-size: larger;
+            font-weight: bold;
+        }
+
+        dd{
+
+            padding-top: 12px;
+            text-transform: lowercase;
+            font-size: medium;
+            font-style: italic;
+       
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>Purav Shah</h1>
+            <ul>
+                <li><a href="#">
+                        <font color="red">Home</font>
+                    </a> </li>
+                <li><a href="#">
+                        <font color="red">About Me</font>
+                    </a></li>
+                <li><a href="#">
+                        <font color="red">Projects</font>
+                    </a></li>
+                <li><a href="#">
+                        <font color="red">WorkEx</font>
+                    </a></li>
+            </ul>
+        </header>
+    </div>
+
+    <hr>
+
+    <form action="process.php">
+        <label for="email">Email:</label>
+        <input type="text" name="email" value="gordo@example.com" autofocus required>
+
+        <br> <br>
+
+        password: <input type="password" name="password" id="pass" required>
+
+        <br> <br>
+
+        Admin<input type="radio"> User <input type="radio">
+
+        <br> <br>
+
+        <input type="submit" formnovalidate value="Submit">
+
+
+
+        <br> <br>
+
+    </form>
+
+    <p>
+    <h1>
+        Why this?
+    </h1>
+    <ol>
+        Form is for:
+        <li>
+            Viewers
+        </li>
+        <li>
+            Admin
+        </li>
+    </ol>
+
+    <dl>
+
+            For privillege purposes so that <dt>admin: 
+                <dd>can access webiste and make changes</dd>
+            </dt>  and 
+            <dt>user</dt>
+            <dd> can login for review
+            privilleges</dd>
+       
+    </dl>
+    </p>
+</body>
+
+</html>
